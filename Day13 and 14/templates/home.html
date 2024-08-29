@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remote Job Search App</title>
+    <link href="https://andybrewer.github.io/mvp/mvp.css" rel="stylesheet"></link>
+  </head>
+
+  <body>
+    <header>
+      <h1> Remote Jobs </h1>
+    </header>
+    <section>
+      <div>
+        
+      </div>
+      <form action="/search">
+        <h4>Which job are you looking for?</h4>
+        <input type="text" name="word" placeholder="i.e python" required list="job">
+        <datalist id="job">
+          <option value="python"> </option>
+          <option value="PYTHON"> </option>
+          <option value="Python"> </option>
+          <option value="react"> </option>
+        </datalist>
+        <button type="submit">Find my job</button>
+      </form>
+    </section>
+  </body>
+</html>
